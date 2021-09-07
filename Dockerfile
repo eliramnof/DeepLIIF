@@ -30,5 +30,5 @@ RUN echo "conda activate pytorch_env" >> ~/.bashrc
 ENV PATH /opt/conda/envs/pytorch_env/bin:$PATH
 ENV CONDA_DEFAULT_ENV $pytorch_env
 
-WORKDIR XXX/DeepLIIF
+WORKDIR /nadeem_lab/Eliram/DeepLIIF
 COPY . .
